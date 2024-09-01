@@ -1,0 +1,33 @@
+/* Navbar.css */
+
+.navbar {
+  background-color: #333; /* Fondo oscuro */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between; /* Espacio entre los enlaces y la información del usuario */
+  align-items: center; /* Alinear verticalmente los elementos en el centro */
+}
+
+.navbar-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Alinea los elementos en horizontal */
+}
+
+.navbar-item {
+  color: white; /* Color de la fuente blanco */
+  text-decoration: none;
+  margin-right: 20px; /* Espacio entre las opciones del menú */
+  font-weight: bold;
+}
+
+.navbar-item:hover {
+  text-decoration: underline; /* Subraya el enlace al pasar el ratón */
+}
+
+.user-info {
+  color: white; /* Color de la información del usuario en blanco */
+  font-size: 14px;
+  font-weight: bold;
+}
